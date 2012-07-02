@@ -7,6 +7,28 @@ html, body{
     margin: 0 auto;
 }
 
+
+/***    Begin Slider    ***/
+.nivo-directionNav a{
+    top: 27% !important;
+}
+
+a.nivo-prevNav{
+    background: url("../img/landing/flecha_izquierda.png");
+    height: 88px;
+    overflow: hidden;
+    text-indent: 136px;
+    width: 49px;
+}
+a.nivo-nextNav{
+    background: url("../img/landing/flecha_derecha.png");
+    height: 88px;
+    overflow: hidden;
+    text-indent: 136px;
+    width: 49px;
+}
+/***    End Slider    ***/
+
 /***    Begin Header    ***/
 #header{
     height: 117px;
