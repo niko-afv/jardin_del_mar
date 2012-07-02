@@ -1,0 +1,110 @@
+html, body{
+    padding : 0;
+    margin: 0;
+}
+#main{
+    width: 1507px;
+    margin: 0 auto;
+}
+
+/***    Begin Header    ***/
+#header{
+    height: 117px;
+    width: 1507px;
+    background: url('../img/landing/header.png') #FFFFFF;
+    /*position: fixed;
+    z-index: 99999;*/
+}
+#header #nav{
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+#logo{
+    float: left;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+/***    End Header  ***/
+
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    margin: 0 auto;
+    height: inherit;
+    background: inherit;
+    position: relative;
+}
+
+/***    Begin Main Content  ***/
+#main-content{
+    position: relative;
+    height: 743px;
+}
+
+#img-left{
+    background: url("../img/landing/imagen_izquierda.jpg");
+    background-repeat: no-repeat;
+    width: 229px;
+    height: inherit;
+    float: left;
+}
+#img-left img{
+    opacity: 0.8;
+    width: 229px;
+    height: inherit;
+}
+#img-center{
+    
+    width: 1048px;
+    height: inherit;
+    float: left;
+}
+#slider{
+    height: 743px;
+}
+#img-right{
+    background: url("../img/landing/imagen_derecha.jpg");
+    background-repeat: no-repeat;
+    width: 230px;
+    height: inherit;
+    float: left;
+}
+#img-right img{
+    opacity: 0.8;
+    width: 230px;
+    height: inherit;
+}
+#rectangular{
+    background: #FFFFFF;
+    opacity: 0.5;
+    width: 100%;
+    height: 65px;
+    z-index: 99999;
+    position: absolute;
+    bottom: 1px;
+}
+#rectangular img{
+    position: absolute;
+    left: 370px;
+}
+/***    End Main Content  ***/
+
+/***    Begin Footer  ***/
+#footer{
+    background: #FFFFFF;
+    height: 112px;
+    width: 1507px;
+    position: relative;
+}
+#footer img{
+    position: absolute;
+    right: 230px;
+    top: 20px;
+}
+#footer img:first-child{
+    left: 600px;
+}
+/***    End Footer  ***/
