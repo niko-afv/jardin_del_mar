@@ -101,6 +101,12 @@ a.nivo-nextNav{
     height: 743px;
     width: 1050px;
 }
+
+#container-folleto{
+    bottom: 155px;
+    position: absolute;
+    right: 290px;
+}
 #img-right{
     background: url("../img/landing/imagen_derecha.jpg");
     background-repeat: no-repeat;
@@ -146,3 +152,67 @@ a.nivo-nextNav{
     left: 600px;
 }
 /***    End Footer  ***/
+
+
+
+
+/***    Begin Cotizacion    ***/
+#cotizacion{
+    background: url('../img/forms/cotizacion.jpg');
+    width: 399px;
+    height: 528px;
+    position: relative;
+}
+#cotizacion #cotizacion-form{
+    position: absolute;
+    left: 95px;
+    top: 190px;
+    display: block;
+    width: 210px;
+}
+#cotizacion #cotizacion-form input{
+    margin : 0 0 20px 0;
+    height: 30px;
+    width: 214px;
+}
+#cotizacion #cotizacion-form textarea{
+    width: 214px;
+}
+#cotizacion #cotizacion-form img#send{
+    /*background: url('../img/forms/boton_enviar.png');*/
+    width: 134px;
+    height: 47px;
+    margin: 20px 0 0 35px;
+}
+/***    End Cotizacion    ***/
+
+
+/***    Begin Folleto    ***/
+#folleto{
+    background: url('../img/forms/folleto.jpg');
+    width: 399px;
+    height: 528px;
+    position: relative;
+}
+#folleto #folleto-form{
+    position: absolute;
+    left: 95px;
+    top: 190px;
+    display: block;
+    width: 210px;
+}
+#folleto #folleto-form input{
+    margin : 0 0 20px 0;
+    height: 30px;
+    width: 214px;
+}
+#folleto #folleto-form textarea{
+    width: 214px;
+}
+#folleto #folleto-form img#send{
+    /*background: url('../img/forms/boton_enviar.png');*/
+    width: 134px;
+    height: 47px;
+    margin: 20px 0 0 35px;
+}
+/***    End folleto    ***/

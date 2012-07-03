@@ -14,7 +14,7 @@ $(document).ready(function(){
         controlNav: false, // 1,2,3... navigation
         controlNavThumbs: false, // Use thumbnails for Control Nav
         pauseOnHover: true, // Stop animation while hovering
-        manualAdvance: false, // Force manual transitions
+        manualAdvance: true, // Force manual transitions
         prevText: 'Prev', // Prev directionNav text
         nextText: 'Next', // Next directionNav text
         randomStart: false, // Start on a random slide
