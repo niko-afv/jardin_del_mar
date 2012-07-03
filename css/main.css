@@ -105,7 +105,8 @@ a.nivo-nextNav{
 #container-folleto{
     bottom: 155px;
     position: absolute;
-    right: 290px;
+    right: 370px;
+    z-index: 500;
 }
 #img-right{
     background: url("../img/landing/imagen_derecha.jpg");
