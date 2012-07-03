@@ -34,14 +34,25 @@ a.nivo-nextNav{
     height: 117px;
     width: 1507px;
     background: url('../img/landing/header.png') #FFFFFF;
-    /*position: fixed;
-    z-index: 99999;*/
+    position: fixed;
+    z-index: 99999;
 }
 #header #nav{
     float: left;
     position: absolute;
     bottom: 10px;
-    left: 30px;
+    
+}
+#header #nav ul li{
+    float: left;
+    margin: 0 20px 0 0;
+    list-style: none;
+}
+#header #nav ul li a{
+    text-decoration: none;
+    color : #749802;
+    border: 0;
+    font-size: 18px;
 }
 #logo{
     float: left;
@@ -86,6 +97,7 @@ a.nivo-nextNav{
 }
 #slider{
     height: 743px;
+    width: 1050px;
 }
 #img-right{
     background: url("../img/landing/imagen_derecha.jpg");
@@ -100,13 +112,13 @@ a.nivo-nextNav{
     height: inherit;
 }
 #rectangular{
-    background: #FFFFFF;
-    opacity: 0.5;
+    background: #000000;
+    opacity: 0.7;
     width: 100%;
     height: 65px;
     z-index: 99999;
     position: absolute;
-    bottom: 1px;
+    bottom: 0;
 }
 #rectangular img{
     position: absolute;
@@ -116,14 +128,15 @@ a.nivo-nextNav{
 
 /***    Begin Footer  ***/
 #footer{
-    background: #FFFFFF;
-    height: 112px;
+    background: url('../img/landing/footer.png') repeat-x 0 -65px #FFFFFF;
+    
+    height: 115px;
     width: 1507px;
     position: relative;
 }
 #footer img{
     position: absolute;
-    right: 230px;
+    right: 240px;
     top: 20px;
 }
 #footer img:first-child{
