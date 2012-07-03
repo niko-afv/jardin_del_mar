@@ -13,4 +13,7 @@ $(function(){
     if(getParameterByName('page') == 'gallery'){
         $("#main").load("gallery.htm");
     }
+    if(getParameterByName('page') == 'plantas'){
+        $("#main").load("plantas.htm");
+    }
 });
