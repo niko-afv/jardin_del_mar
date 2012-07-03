@@ -6,7 +6,9 @@ html, body{
     width: 1507px;
     margin: 0 auto;
 }
-
+.hidden{
+    display: none;
+}
 
 /***    Begin Slider    ***/
 .nivo-directionNav a{
@@ -34,8 +36,8 @@ a.nivo-nextNav{
     height: 117px;
     width: 1507px;
     background: url('../img/landing/header.png') #FFFFFF;
-    position: fixed;
-    z-index: 99999;
+    /*position: fixed;
+    z-index: 99999;*/
 }
 #header #nav{
     float: left;
@@ -116,12 +118,13 @@ a.nivo-nextNav{
     opacity: 0.7;
     width: 100%;
     height: 65px;
-    z-index: 99999;
+    z-index: 9999;
     position: absolute;
     bottom: 0;
 }
 #rectangular img{
     position: absolute;
+    top: 8px;
     left: 370px;
 }
 /***    End Main Content  ***/
