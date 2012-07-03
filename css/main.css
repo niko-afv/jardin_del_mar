@@ -36,8 +36,8 @@ a.nivo-nextNav{
     height: 117px;
     width: 1507px;
     background: url('../img/landing/header.png') #FFFFFF;
-    /*position: fixed;
-    z-index: 99999;*/
+    position: fixed;
+    z-index: 100;
 }
 #header #nav{
     float: left;
