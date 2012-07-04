@@ -2,6 +2,7 @@
 <html>
     <head>
         
+        <meta charset="UTF-8" />
         <!--    Begin JQuery   -->
         <script src="./js/jquery.js"></script>
         <!--    End JQuery   -->
@@ -31,11 +32,11 @@
                 <div class="content">
                     <div id="nav">
                         <ul>
-                            <li><a rel="prettyphoto[gallery1]" href="modal.html?page=gallery&iframe=true&width=800&height=600">Im&aacute;genes</a></li>
-                            <li><a href="javascript:void(0)">Video</a></li>
-                            <li><a href="javascript:void(0)">Tour Virtual</a></li>
+                            <li><a rel="prettyphoto[gallery1]" href="modal.html?page=masterplan&iframe=true&width=800&height=600">Im&aacute;genes</a></li>
+                            <li><a rel="prettyphoto[gallery1]" href="modal.html?page=tour&iframe=true&width=800&height=600">Tour Virtual</a></li>
                             <li><a rel="prettyphoto[plantas]" href="img/para_plantas/1.jpg">Plantas</a></li>
-                            <li><a href="javascript:void(0)">Ubicaci&oacute;n</a></li>
+                            <li><a rel="prettyPhoto1" href="#?custom=true&amp;&width=800&height=600">Ubicación</a></li>
+                            
                             <li><a rel="prettyphoto" href="cotizacion.html?iframe=true&width=410&height=540">Cotizar</a></li>
                         </ul>
                     </div>
@@ -75,8 +76,6 @@
             </div>
             
             <div id="footer">
-                &nbsp;
-                <img src="img/landing/foto_vendedora.jpg"    />
                 <img src="img/landing/logo_desco.jpg"    />
             </div>
             
@@ -118,9 +117,35 @@
        
        
         <!-- Js Extra Code-->
-        <script>
+        <!-- Google Maps Code -->
+        
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript">
+            function initialize() {
+                var latlng = new google.maps.LatLng(-32.974324,-71.534858);
+                var myOptions = {
+                    zoom: 13,
+                    center: latlng,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                };
+                var map = new google.maps.Map(document.getElementById("map_canvas"),
+                myOptions);
                 
+                
+            }
+
         </script>
-       
+        <!-- END Google Maps Code -->
+        
+        
+        <script>
+            $(document).ready(function(){
+                $("a[rel^='prettyPhoto']").prettyPhoto({
+                    custom_markup: '<div id="map_canvas" style="width:800px; height:600px"></div>',
+                    changepicturecallback: function(){ initialize(); }
+                });
+            });
+        </script>
+        
     </body>
 </html>
