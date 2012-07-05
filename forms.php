@@ -66,6 +66,11 @@ try {
         $mail->MsgHTML($htmlF);
         //Archivos adjuntos
         $mail->AddAddress($correo_destino, $nombre_destino);
+        
+        /*-------------------------------------------*/
+         $mail->AddAddress('rehidalgog@gmail.com', 'Ramon Hidalgo');
+         $mail->AddAddress('aedofrancisco@gmail.com', 'Francisco Aedo');
+         /*------------------------------------------*/
         $mail->AddAttachment('img/forms/folleto.jpg');
         $resF = $mail->Send();
     }
