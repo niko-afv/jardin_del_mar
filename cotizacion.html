@@ -1,21 +1,31 @@
 <html>
     <head>
+        
+        <!--    Begin JQuery   -->
+        <script src="./js/jquery.js"></script>
+        <!--    End JQuery   -->
+        
         <!--    Begin ByMySelf   -->
         <link rel="stylesheet" href="./css/main.css" type="text/css" media="screen"  />
-        
+        <script src="./js/forms.js"></script>
         <!--    End ByMySelf   -->
     </head>
     <body>
         <div id="cotizacion">
-            <form id="cotizacion-form">
-            <input type="text" name="name" value="" id="" placeholder="Nombre" />
-            <input type="text" name="last_name" value="" id="" placeholder="Apellido" />
-            <input type="text" name="email" value="" id="" placeholder="E-mail" />
-            <input type="text" name="phone" value="" id="" placeholder="Telefono" />
-            <textarea name="comment" placeholder="comentario" ></textarea>
+            
+            <span id="#msg">&nbsp;</span>
+            
+            <form class="form" id="cotizacion-form">
+            <input class="input" type="text" name="name" value="" id="nombre" placeholder="Nombre" />
+            <input class="input" type="text" name="last_name" value="" id="apellido" placeholder="Apellido" />
+            <input class="input" type="text" name="email" value="" id="email" placeholder="E-mail" />
+            <input  class="input" type="text" name="phone" value="" id="fono" placeholder="Telefono" />
+            <textarea class="input" name="comment" placeholder="comentario" id="comentario" ></textarea>
+            
+            <input  class="input" type="hidden" name="form" id="form" value="cotizar" />
             
             <!--<button type="submit" id="send"></button>-->
-            <img src="img/forms/boton_enviar.png" id="send"    />
+            <img class="btn" src="img/forms/boton_enviar.png" id="send"    />
         </form>
         </div>
     </body>
