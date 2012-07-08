@@ -79,6 +79,7 @@ $(document).ready(function(){
                         //setTimeout("$(location).attr('href','.')",2000);
                         alert("Sus datos se han enviado correctamente");
                         resetForm();
+                        window.parent.$.prettyPhoto.close();
                         //});
                     }else{
                         alert("Lo sentimos, no es posible gestionar su solicitud. Intente mas tarde.");

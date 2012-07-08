@@ -10,7 +10,10 @@ html, body{
 .hidden{
     display: none;
 }
-
+a{
+    text-decoration: none;
+    border: 0;
+}
 /***    Begin Slider    ***/
 .nivo-directionNav a{
     top: 27% !important;
@@ -38,13 +41,12 @@ a.nivo-nextNav{
     width: 1507px;
     background: url('../img/landing/header.png') #FFFFFF;
     position: fixed;
-    z-index: 100;
+    z-index: 600;
 }
 #header #nav{
     float: left;
     position: absolute;
     bottom: 10px;
-    
 }
 #header #nav ul li{
     float: left;

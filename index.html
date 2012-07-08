@@ -32,7 +32,7 @@
                 <div class="content">
                     <div id="nav">
                         <ul>
-                            <li><a rel="prettyphoto[gallery1]" href="modal.html?page=masterplan&iframe=true&width=800&height=600">Im&aacute;genes</a></li>
+                            <li><a rel="prettyphoto[gallery1]" href="modal.html?page=gallery&iframe=true&width=800&height=600">Im&aacute;genes</a></li>
                             <li><a rel="prettyphoto[gallery1]" href="modal.html?page=tour&iframe=true&width=800&height=600">Tour Virtual</a></li>
                             <li><a rel="prettyphoto[plantas]" href="img/para_plantas/1.jpg">Plantas</a></li>
                             <li><a rel="prettyPhoto1" href="#?custom=true&amp;&width=800&height=600">Ubicación</a></li>
@@ -140,7 +140,7 @@
         
         <script>
             $(document).ready(function(){
-                $("a[rel^='prettyPhoto']").prettyPhoto({
+                $("a[rel^='prettyPhoto1']").prettyPhoto({
                     custom_markup: '<div id="map_canvas" style="width:800px; height:600px"></div>',
                     changepicturecallback: function(){ initialize(); }
                 });
