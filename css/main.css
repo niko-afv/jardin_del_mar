@@ -115,6 +115,9 @@ a.nivo-nextNav{
     text-decoration: none;
     border: 0;
 }
+#container-folleto a img{
+    border: 0;
+}
 #img-right{
     background: url("../img/landing/imagen_derecha.jpg");
     background-repeat: no-repeat;
