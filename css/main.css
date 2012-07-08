@@ -111,6 +111,10 @@ a.nivo-nextNav{
     right: 300px;
     z-index: 500;
 }
+#container-folleto a{
+    text-decoration: none;
+    border: 0;
+}
 #img-right{
     background: url("../img/landing/imagen_derecha.jpg");
     background-repeat: no-repeat;
