@@ -2,3 +2,6 @@
     width: 740px;
     height: 500px;
 }
+div#footer div a img{
+    border: 0;
+}
