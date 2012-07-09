@@ -1,18 +1,15 @@
 html, body{
     padding : 0;
     margin: 0;
+    min-width: 1050px; 
 }
 #main{
-    width: 1507px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
 .hidden{
     display: none;
-}
-a{
-    text-decoration: none;
-    border: 0;
 }
 /***    Begin Slider    ***/
 .nivo-directionNav a{
@@ -38,15 +35,14 @@ a.nivo-nextNav{
 /***    Begin Header    ***/
 #header{
     height: 117px;
-    width: 1507px;
+    width: 100%;
     background: url('../img/landing/header.png') #FFFFFF;
     position: fixed;
     z-index: 600;
 }
 #header #nav{
     float: left;
-    position: absolute;
-    bottom: 10px;
+    margin: 60px 0 0 0;
 }
 #header #nav ul li{
     float: left;
@@ -60,26 +56,24 @@ a.nivo-nextNav{
     font-size: 18px;
 }
 #logo{
-    float: left;
-    position: absolute;
-    right: 0;
-    top: 30px;
+    float: right;
+    margin: 25px 0 0 0;
 }
 /***    End Header  ***/
 
 .content{
-    width: 1000px;
-    margin: 0 auto;
+    width: 1050px;
     margin: 0 auto;
     height: inherit;
     background: inherit;
-    position: relative;
 }
 
 /***    Begin Main Content  ***/
 #main-content{
+    background: url('../img/landing/fondo_landing.png')no-repeat scroll 50% 100px transparent;
     position: relative;
     height: 743px;
+    width: 100%;
 }
 
 #img-left{
@@ -108,8 +102,13 @@ a.nivo-nextNav{
 #container-folleto{
     bottom: 270px;
     position: absolute;
-    right: 300px;
     z-index: 500;
+    width: 100%;
+}
+#container-folleto div  a{
+    text-decoration: none;
+    border: 0;
+    float: right;
 }
 #img-right{
     background: url("../img/landing/imagen_derecha.jpg");
@@ -133,24 +132,24 @@ a.nivo-nextNav{
     bottom: 0;
 }
 #rectangular img{
-    position: absolute;
-    top: 8px;
-    left: 370px;
+    margin: 7px 0 0 127px;
 }
 /***    End Main Content  ***/
 
 /***    Begin Footer  ***/
 #footer{
     background: url('../img/landing/footer.png') repeat-x 0 -65px #FFFFFF;
-    
     height: 115px;
-    width: 1507px;
+    width: 100%;
     position: relative;
 }
-#footer img{
-    position: absolute;
-    right: 240px;
-    top: 20px;
+#footer div{
+    width: 1050px;
+    height: 115px;
+    margin: 0 auto;
+}
+#footer div img{
+    float: right;
 }
 /*#footer img:first-child{
     left: 600px;
