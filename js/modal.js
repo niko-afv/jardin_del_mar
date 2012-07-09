@@ -20,7 +20,8 @@ $(function(){
         $("#main").load("plantas.htm");
     }
     if(getParameterByName('page') == 'tour'){
-        $("#main").load("tour_virtual_jdm/2d.html");
+        //$("#main").load("tour.htm");
+        $("#main").load("tour_virtual_jdm/3d.html");
     }
     if(getParameterByName('page') == 'map'){
         $("#main").load("map.htm");
