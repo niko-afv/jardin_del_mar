@@ -1,9 +1,10 @@
 html, body{
+    overflow: hidden;
     padding : 0;
     margin: 0;
 }
 #main{
-    width: 1507px;
+    width: 1253px;
     margin: 0 auto;
     position: relative;
 }
@@ -38,7 +39,7 @@ a.nivo-nextNav{
 /***    Begin Header    ***/
 #header{
     height: 117px;
-    width: 1507px;
+    width: inherit;
     background: url('../img/landing/header.png') #FFFFFF;
     position: fixed;
     z-index: 600;
@@ -79,25 +80,26 @@ a.nivo-nextNav{
 /***    Begin Main Content  ***/
 #main-content{
     position: relative;
-    height: 743px;
+    height: 536px;
+    width: inherit;
 }
 
 #img-left{
     background: url("../img/landing/imagen_izquierda.jpg");
     background-repeat: no-repeat;
-    width: 229px;
-    height: inherit;
+    width: 150px;
+    height: 532px;
     float: left;
 }
 #img-left img{
     opacity: 0.8;
-    width: 229px;
+    width: 161px;
     height: inherit;
 }
 #img-center{
     
     width: 1048px;
-    height: inherit;
+    height: 532px;
     float: left;
 }
 #slider{
@@ -121,8 +123,8 @@ a.nivo-nextNav{
 #img-right{
     background: url("../img/landing/imagen_derecha.jpg");
     background-repeat: no-repeat;
-    width: 230px;
-    height: inherit;
+    width: 150px;
+    height: 532px;
     float: left;
 }
 #img-right img{
@@ -151,7 +153,7 @@ a.nivo-nextNav{
     background: url('../img/landing/footer.png') repeat-x 0 -65px #FFFFFF;
     
     height: 115px;
-    width: 1507px;
+    width: inherit;
     position: relative;
 }
 #footer img{
