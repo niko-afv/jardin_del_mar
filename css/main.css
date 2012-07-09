@@ -1,7 +1,7 @@
 html, body{
     padding : 0;
     margin: 0;
-    min-width: 1050px; 
+    /*min-width: 1050px;*/ 
 }
 #main{
     width: 100%;
@@ -71,6 +71,12 @@ a.nivo-nextNav{
 /***    Begin Main Content  ***/
 #main-content{
     background: url('../img/landing/fondo_landing.png')no-repeat scroll 50% 100px transparent;
+    position: relative;
+    height: 743px;
+    width: 100%;
+}
+#transp{
+    /*background: url('../img/landing/fondo_landing.png')no-repeat scroll 50% 100px transparent;*/
     position: relative;
     height: 743px;
     width: 100%;
