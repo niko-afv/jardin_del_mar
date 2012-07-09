@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Abadi';
+    src: url('fonts/Abadi_MT_Condensed_Extra_Bold.ttf');
+}
 html, body{
     padding : 0;
     margin: 0;
@@ -46,14 +50,15 @@ a.nivo-nextNav{
 }
 #header #nav ul li{
     float: left;
-    margin: 0 20px 0 0;
+    margin: 0 32px 0 0;
     list-style: none;
 }
 #header #nav ul li a{
     text-decoration: none;
-    color : #749802;
+    color : #7f9724;
+    font-family: "Abadi";
     border: 0;
-    font-size: 18px;
+    font-size: 24px;
 }
 #logo{
     float: right;
@@ -115,6 +120,13 @@ a.nivo-nextNav{
     text-decoration: none;
     border: 0;
     float: right;
+}
+#container-folleto a{
+    text-decoration: none;
+    border: 0;
+}
+#container-folleto a img{
+    border: 0;
 }
 #img-right{
     background: url("../img/landing/imagen_derecha.jpg");

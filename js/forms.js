@@ -47,6 +47,8 @@ $(document).ready(function(){
     
     $(".btn").click(function(){
         sacarBordes();
+        $("#cotizacion").css("cursor","wait");
+        $("#folleto").css("cursor","wait");
         var valor = validar();
         if ( valor != 1){
             $(valor).css("border","3px solid red");
@@ -71,6 +73,8 @@ $(document).ready(function(){
                 'comentario' : comentario,
                 'formulario' : formulario},
                 function(data){
+                    $("#cotizacion").css("cursor","auto");
+                    $("#folleto").css("cursor","auto");
                     if(data == 1){
                         /*$("#msg").removeClass("error");
                         $("#msg").addClass("success");

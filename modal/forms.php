@@ -17,7 +17,7 @@ $htmlC = "
 "";
 
 date_default_timezone_set('America/Santiago'); //Se define la zona horaria
-require_once('class/class.phpmailer.php'); //Incluimos la clase phpmailer
+require_once('../class/class.phpmailer.php'); //Incluimos la clase phpmailer
  
 $mail = new PHPMailer(true);
 $mail->IsSMTP();
@@ -71,7 +71,7 @@ try {
          //$mail->AddAddress('rehidalgog@gmail.com', 'Ramon Hidalgo');
          //$mail->AddAddress('aedofrancisco@gmail.com', 'Francisco Aedo');
          /*------------------------------------------*/
-        $mail->AddAttachment('img/forms/folleto.jpg');
+        $mail->AddAttachment("../downloads/Brochure_JDM_2.pdf");
         $resF = $mail->Send();
     }
     
