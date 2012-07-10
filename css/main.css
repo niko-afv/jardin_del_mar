@@ -75,7 +75,7 @@ a.nivo-nextNav{
 
 /***    Begin Main Content  ***/
 #main-content{
-    background: url('../img/landing/fondo_landing.png')no-repeat;
+    background: url('../img/landing/fondo_landing.png')no-repeat scroll 50% 100px transparent;
     position: relative;
     height: 743px;
     width: 100%;
