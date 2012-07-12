@@ -77,14 +77,15 @@ a.nivo-nextNav{
 #main-content{
     background: url('../img/landing/fondo_landing.png')no-repeat scroll 50% 100px transparent;
     position: relative;
-    height: 743px;
+    height: 512px;
     width: 100%;
 }
 #transp{
-    /*background: url('../img/landing/fondo_landing.png')no-repeat scroll 50% 100px transparent;*/
+    background: url('../img/landing/transparencia.png')no-repeat scroll 50% 100px transparent;
     position: relative;
     height: 743px;
     width: 100%;
+    background-position: top;
 }
 
 #img-left{
@@ -106,7 +107,7 @@ a.nivo-nextNav{
     float: left;
 }
 #slider{
-    height: 743px;
+    height: 512px;
     width: 1050px;
 }
 
@@ -160,14 +161,26 @@ a.nivo-nextNav{
     height: 115px;
     width: 100%;
     position: relative;
+    z-index: 50;
 }
 #footer div{
     width: 1050px;
     height: 115px;
     margin: 0 auto;
+    position: relative;
+}
+#footer .content p#info{
+    font-family: sans-serif;
+    margin: 0 !important;
+    width: 511px;
+    color: #ffffff;
+    position: absolute;
+    top: 15px;
 }
 #footer div img{
-    float: right;
+    position: absolute;
+    right: 25px;
+    top: 15px;
 }
 /*#footer img:first-child{
     left: 600px;
