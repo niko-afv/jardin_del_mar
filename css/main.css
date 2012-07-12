@@ -71,6 +71,7 @@ a.nivo-nextNav{
     margin: 0 auto;
     height: inherit;
     background: inherit;
+    position: relative;
 }
 
 /***    Begin Main Content  ***/
@@ -120,7 +121,8 @@ a.nivo-nextNav{
 #container-folleto div  a{
     text-decoration: none;
     border: 0;
-    float: right;
+    position: absolute;
+    right: 112px;
 }
 #container-folleto a{
     text-decoration: none;
