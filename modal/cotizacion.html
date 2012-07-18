@@ -5,6 +5,19 @@
         <script src="../js/jquery.js"></script>
         <!--    End JQuery   -->
         
+        <!--    Begin Watermaker   -->
+        <script src="../js/jquery.watermark-3.1.3/jquery.watermark.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#nombre').watermark('Nombre');
+                $('#apellido').watermark('Apellido');
+                $('#email').watermark('E-mail');
+                $('#fono').watermark('Fono');
+                $('#comentario').watermark('Comentario');
+            });
+        </script>
+        <!--    End Watermaker   -->
+        
         <!--    Begin ByMySelf   -->
         <link rel="stylesheet" href="../css/main.css" type="text/css" media="screen"  />
         <script src="../js/forms.js"></script>
@@ -16,11 +29,11 @@
             <span id="#msg">&nbsp;</span>
             
             <form class="form" id="cotizacion-form">
-            <input class="input" type="text" name="name" value="" id="nombre" placeholder="Nombre" />
-            <input class="input" type="text" name="last_name" value="" id="apellido" placeholder="Apellido" />
-            <input class="input" type="text" name="email" value="" id="email" placeholder="E-mail" />
-            <input  class="input" type="text" name="phone" value="" id="fono" placeholder="Telefono" />
-            <textarea class="input" name="comment" placeholder="comentario" id="comentario" ></textarea>
+            <input class="input" type="text" name="name" value="" id="nombre"   />
+            <input class="input" type="text" name="last_name" value="" id="apellido"    />
+            <input class="input" type="text" name="email" value="" id="email"   />
+            <input  class="input" type="text" name="phone" value="" id="fono"   />
+            <textarea class="input" name="comment" id="comentario" ></textarea>
             
             <input  class="input" type="hidden" name="form" id="form" value="cotizar" />
             
