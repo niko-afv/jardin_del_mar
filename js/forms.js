@@ -1,5 +1,15 @@
 $(document).ready(function(){
     
+    
+    $('#nombre').watermark('Nombre');
+    $('#apellido').watermark('Apellido');
+    $('#email').watermark('E-mail');
+    $('#fono').watermark('Fono');
+    $('#comentario').watermark('Comentario');
+    
+    
+    
+    
     sacarBordes();
     
     var cotizacion = $("#cotizacionBtn");

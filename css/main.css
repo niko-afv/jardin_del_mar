@@ -190,7 +190,11 @@ a.nivo-nextNav{
 /***    End Footer  ***/
 
 
-
+/***    Begin Formularios    ***/
+form input{
+    color: gray;
+}
+/***    Begin Formularios   ***/
 
 /***    Begin Cotizacion    ***/
 #cotizacion{
